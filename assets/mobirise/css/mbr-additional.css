@@ -844,8 +844,8 @@ section.lazy-placeholder:after {
   color: #ffffff;
 }
 .cid-s29dNtTupa {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 30px;
   background: linear-gradient(0deg, #7fdbfd, #6670a9);
 }
 .cid-s29dNtTupa .mbr-iconfont-social {
@@ -854,4 +854,46 @@ section.lazy-placeholder:after {
 }
 .cid-s29dNtTupa .social-list a:focus {
   text-decoration: none;
+}
+.cid-s29K52db6v {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #f7ed4a;
+}
+.cid-s29K52db6v [class^="socicon-"]:before,
+.cid-s29K52db6v [class*=" socicon-"]:before {
+  line-height: 44px;
+}
+.cid-s29K52db6v .btn-social {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  position: relative;
+  color: #232323;
+  cursor: pointer;
+  border-color: #149dcc;
+}
+.cid-s29K52db6v .btn-social i {
+  top: 0;
+  line-height: 44px;
+  width: 44px;
+}
+.cid-s29K52db6v .btn-social:hover {
+  color: #fff;
+  background: #149dcc;
+}
+.cid-s29K52db6v .btn-social:hover i.socicon {
+  color: #ffffff !important;
+}
+.cid-s29K52db6v .btn-social + .btn {
+  margin-left: .1rem;
+}
+@media (max-width: 767px) {
+  .cid-s29K52db6v .btn {
+    font-size: 20px !important;
+  }
 }

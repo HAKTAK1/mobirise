@@ -907,15 +907,3 @@ section.lazy-placeholder:after {
 .cid-s2mmhyyX5G H3 {
   color: #cccccc;
 }
-.cid-s2mpP13PLS {
-  background: #ffffff;
-}
-.cid-s2mpP13PLS .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .cid-s2mpP13PLS .video-block {
-    width: 100% !important;
-  }
-}

@@ -1119,3 +1119,15 @@ section.lazy-placeholder:after {
     width: 100% !important;
   }
 }
+.cid-s4qpp5l6gP {
+  background: #ffffff;
+}
+.cid-s4qpp5l6gP .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-s4qpp5l6gP .video-block {
+    width: 100% !important;
+  }
+}

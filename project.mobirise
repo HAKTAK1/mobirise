@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "HAK & TAK",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1047,7 +1047,7 @@
         }
       ]
     },
-    "MIXES.html": {
+    "page2.html": {
       "settings": {
         "meta_descr": "MIXED VIDEOS",
         "title": "MIXES",

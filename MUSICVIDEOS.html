@@ -1,41 +1,52 @@
 {
-    "headline": "Playlist Examples",
-    "menu": [{
-            "label": "Playlist Data",
-            "data": "http://msx.benzac.de/services/m3u.php?url=http://msx.benzac.de/info/data/m3u/audios.m3u"
-        }, {            
-            "label": "Playlist Actions",
-            "data": {  
-                "template": {
-                    "type": "control",
-                    "layout": "0,0,12,1",
-                    "color": "msx-glass"
-                },
-                "items": [{
-                        "icon": "msx-white-soft:movie",
-                        "label": "Show video playlist",
-                        "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https://1drv.ms/v/s!AuDleNIcdK67z2LFW9suL4yqx8El?e=zCSusU"
-                    }, {     
-                        "icon": "msx-white-soft:movie",
-                        "label": "Start video playlist",
-                        "action": "playlist:http://msx.benzac.de/services/m3u.php?type=video&url=https://1drv.ms/v/s!AuDleNIcdK67y2iel9TUgbSBcxIV?e=pZRxqG"
-                    }, {
-                        "icon": "msx-white-soft:music-note",
-                        "label": "Show audio playlist",
-                        "action": "content:http://msx.benzac.de/services/m3u.php?type=audio&url=http://msx.benzac.de/info/data/m3u/audios.m3u"
-                    }, {     
-                        "icon": "msx-white-soft:music-note",
-                        "label": "Start audio playlist",
-                        "action": "playlist:http://msx.benzac.de/services/m3u.php?type=audio&url=http://msx.benzac.de/info/data/m3u/audios.m3u"
-                    }, {     
-                        "icon": "msx-white-soft:image",
-                        "label": "Show slideshow",
-                        "action": "content:http://msx.benzac.de/services/m3u.php?type=image&url=http://msx.benzac.de/info/data/m3u/images.m3u"
-                    }, {    
-                        "icon": "msx-white-soft:image",
-                        "label": "Start slideshow",
-                        "action": "slideshow:http://msx.benzac.de/services/m3u.php?type=image&url=http://msx.benzac.de/info/data/m3u/images.m3u"
-                    }]
+    "type": "pages",
+    "headline": "Extended Properties Test",
+    "template": {
+        "tag": "Web",
+        "type": "separate",
+        "layout": "0,0,2,4",
+        "icon": "msx-white-soft:movie",
+        "color": "msx-glass"
+    },
+    "items": [{
+            "title": "Video 1",
+            "playerLabel": "Video 1",
+            "action": "video:https://1drv.ms/v/s!AuDleNIcdK67y2iel9TUgbSBcxIV?e=OjIPHi",
+            "properties": {
+                "button:content:icon": "info",
+                "button:content:action": "info:Live info executed.",
+                "label:duration": "Live",
+                "label:extension": "{ico:msx-red:live-tv}",
+                "progress:color": "msx-red",
+                "progress:type": "reverse:time:[H:]M:ss"
+            }
+        }, {
+            "title": "Video 2",
+            "playerLabel": "Video 2",
+            "action": "video:https://1drv.ms/v/s!AuDleNIcdK67z2LFW9suL4yqx8El?e=uCHcm6",
+            "properties": {
+                "button:content:icon": "info",
+                "button:content:action": "info:Ad info executed.",
+                "button:forward:enable": "false",
+                "button:rewind:enable": "false",
+                "button:restart:enable": "false",
+                "button:speed:enable": "false",
+                "label:extension": "{txt:msx-yellow:Ad}",
+                "progress:color": "msx-yellow",
+                "progress:type": "text:s",
+                "progress:marker:enable": "false"
+            }
+        }, {
+            "title": "Video 3",
+            "playerLabel": "Video 3",
+            "action": "video:https://1drv.ms/v/s!AuDleNIcdK67y2tFGuo3Th2_ZXmk?e=Uu3Mbk",
+            "properties": {
+                "button:content:icon": "info",
+                "button:content:action": "info:Video info executed.",
+                "label:extension": "{ico:msx-blue:local-play}",
+                "progress:color": "msx-blue",
+                "progress:type": "percentage",
+                "trigger:midpoint": "info:Midpoint of video reached."
             }
         }]
 }

@@ -1,5 +1,5 @@
-$ dig WWW.haktak.be +nostats +nocomments +nocmd
-    > ;WWW.haktak.be.                     IN      A
-    > WWW.haktak.be.              3592    IN      CNAME   HAKTAK1.github.io.
-    > HAKTAK1.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+$ dig haktak.be +nostats +nocomments +nocmd
+    > ;haktak.be.                     IN      A
+    > haktak.be.              3592    IN      CNAME   HAKTAK1.github.io.
+    > haktak1.github.io/mobirise/index.html.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
     >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1

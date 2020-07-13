@@ -1,0 +1,3 @@
+Hostname: github.io
+TXT regels: domain-verification:4c8c5e54c3740434c89759e484fb3fa00be606cf
+TTL: 3600

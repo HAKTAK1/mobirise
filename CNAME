@@ -1,4 +1,4 @@
-$ dig haktak.be +nostats +nocomments +nocmd
+haktak.be
     > ;haktak.be.                     IN      A
     > haktak.be.              3592    IN      CNAME   HAKTAK1.github.io.
     > haktak1.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .

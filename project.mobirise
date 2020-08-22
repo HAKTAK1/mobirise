@@ -55,8 +55,8 @@
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/hak-tak-new2-128x128.png",
     "robotsSwitcher": true,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "google-analytics": "UA-171030212-1",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "google-analytics": "UA-169353877-2",
     "cookiesAlert": {
       "customDialogSelector": false,
       "colorText": "#424a4d",

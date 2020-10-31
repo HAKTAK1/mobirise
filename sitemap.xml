@@ -9,9 +9,6 @@
 		<loc>https://haktak1.github.io/mobirise/MUSICVIDEOS.html</loc>
 	</url>
 	<url>
-		<loc>https://haktak1.github.io/mobirise/MUSICVIDEOSEXTRA.html</loc>
-	</url>
-	<url>
 		<loc>https://haktak1.github.io/mobirise/mixes1.html</loc>
 	</url>
 	<url>
@@ -25,5 +22,11 @@
 	</url>
 	<url>
 		<loc>https://haktak1.github.io/mobirise/livestream.html</loc>
+	</url>
+	<url>
+		<loc>https://haktak1.github.io/mobirise/videos.html</loc>
+	</url>
+	<url>
+		<loc>https://haktak1.github.io/mobirise/videosextra.html</loc>
 	</url>
 </urlset>

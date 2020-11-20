@@ -946,6 +946,18 @@ section.lazy-placeholder:after {
 .cid-s2mmhyyX5G H3 {
   color: #cccccc;
 }
+.cid-sgSYR1neOR {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.cid-sgSYR1neOR .video-wrapper iframe {
+  width: 100%;
+}
+.cid-sgSYR1neOR .mbr-section-title,
+.cid-sgSYR1neOR .mbr-section-subtitle,
+.cid-sgSYR1neOR .mbr-text {
+  text-align: center;
+}
 .cid-sf2erZ7qFN {
   padding-top: 3rem;
   padding-bottom: 3rem;

@@ -685,7 +685,7 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-s1O0Z5fMIH {
-  background-image: url("../../../assets/images/mbr-1920x1232.jpeg");
+  background-image: url("../../../assets/images/biogradska-gora-1200x675.jpg");
 }
 .cid-s1O0Z5fMIH .mbr-text,
 .cid-s1O0Z5fMIH .mbr-section-btn {
@@ -694,6 +694,7 @@ section.lazy-placeholder:after {
 .cid-s29dIONRw3 {
   padding-top: 30px;
   padding-bottom: 45px;
+  background-image: url("../../../assets/images/silhouette-dance-960x719.jpg");
 }
 .cid-s29dIONRw3 .socicon-bg-facebook {
   background: #3e5b98;
@@ -940,14 +941,27 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s2mmhyyX5G {
-  background-image: url("../../../assets/images/mbr-1920x1275.jpeg");
+  background-image: url("../../../assets/images/mix-for-space-moment2-1280x720.jpg");
 }
 .cid-s2mmhyyX5G .mbr-text,
 .cid-s2mmhyyX5G .mbr-section-btn {
-  color: #073b4c;
+  color: #ffffff;
 }
 .cid-s2mmhyyX5G H3 {
   color: #cccccc;
+  text-align: center;
+}
+.cid-snSutXiF5l {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.cid-snSutXiF5l .video-wrapper iframe {
+  width: 100%;
+}
+.cid-snSutXiF5l .mbr-section-title,
+.cid-snSutXiF5l .mbr-section-subtitle,
+.cid-snSutXiF5l .mbr-text {
+  text-align: center;
 }
 .cid-smlkMMoxYo {
   padding-top: 3rem;
@@ -1485,7 +1499,7 @@ section.lazy-placeholder:after {
 .cid-sjYE25OUDg {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #dfb72e;
+  background-color: #56cc14;
 }
 .cid-sjYE25OUDg .row {
   margin-left: 0;
@@ -1754,7 +1768,7 @@ section.lazy-placeholder:after {
 .cid-sf1TvRI6NO {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: linear-gradient(45deg, #51adce, #ff3366);
+  background: linear-gradient(45deg, #56cc14, #cccccc);
 }
 @media (min-width: 992px) {
   .cid-sf1TvRI6NO .mbr-figure {

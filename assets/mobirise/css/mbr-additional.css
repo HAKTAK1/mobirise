@@ -939,6 +939,18 @@ section.lazy-placeholder:after {
   color: #cccccc;
   text-align: center;
 }
+.cid-spLMlRG1D6 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.cid-spLMlRG1D6 .video-wrapper iframe {
+  width: 100%;
+}
+.cid-spLMlRG1D6 .mbr-section-title,
+.cid-spLMlRG1D6 .mbr-section-subtitle,
+.cid-spLMlRG1D6 .mbr-text {
+  text-align: center;
+}
 .cid-sptPcZW7OE {
   padding-top: 3rem;
   padding-bottom: 3rem;

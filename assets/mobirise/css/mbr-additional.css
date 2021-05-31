@@ -1,9 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-
-
-
-
-
 body {
   font-family: Rubik;
 }
@@ -1190,6 +1184,274 @@ section.lazy-placeholder:after {
 .cid-s8oXX4ZfHG blockquote {
   color: #767676;
 }
+.cid-sySrhaqmli {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #1db761;
+}
+.cid-sySrhaqmli .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.cid-sySrhaqmli .item {
+  padding-left: 0;
+  padding-right: 0;
+}
+.cid-sySrhaqmli .item-wrapper {
+  height: 200px;
+  position: relative;
+}
+.cid-sySrhaqmli .item-wrapper img {
+  height: 100%;
+  object-fit: cover;
+}
+.cid-sySrhaqmli .item-wrapper .icon-wrapper {
+  pointer-events: none;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  opacity: 0;
+  color: #ffffff;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #1b1b1b;
+  transition: 0.2s;
+}
+.cid-sySrhaqmli .item-wrapper:hover .icon-wrapper {
+  opacity: 0.7;
+}
+.cid-sySrhaqmli .carousel-control,
+.cid-sySrhaqmli .close {
+  background: #1b1b1b;
+}
+.cid-sySrhaqmli .carousel-control-prev {
+  margin-left: 2.5rem;
+}
+.cid-sySrhaqmli .carousel-control-prev span {
+  margin-right: 5px;
+}
+.cid-sySrhaqmli .carousel-control-next {
+  margin-right: 2.5rem;
+}
+.cid-sySrhaqmli .carousel-control-next span {
+  margin-left: 5px;
+}
+.cid-sySrhaqmli .close {
+  position: fixed;
+  opacity: 0.5;
+  font-size: 22px;
+  font-weight: 300;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  top: 2.5rem;
+  right: 2.5rem;
+  border: 2px solid #fff;
+  text-shadow: none;
+  z-index: 5;
+  transition: opacity 0.3s ease;
+  font-family: 'Moririse2';
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.cid-sySrhaqmli .close::before {
+  content: '\e91a';
+}
+.cid-sySrhaqmli .close:hover {
+  opacity: 1;
+  background: #000;
+  color: #fff;
+}
+.cid-sySrhaqmli .carousel-control {
+  display: flex;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.cid-sySrhaqmli .carousel-control.carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-sySrhaqmli .carousel-control.carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-sySrhaqmli .carousel-control {
+    top: auto;
+    bottom: 1rem;
+  }
+}
+.cid-sySrhaqmli .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 3px;
+}
+.cid-sySrhaqmli .carousel-indicators li {
+  max-width: 15px;
+  height: 15px;
+  width: 15px;
+  max-height: 15px;
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.cid-sySrhaqmli .carousel-indicators li.active,
+.cid-sySrhaqmli .carousel-indicators li:hover {
+  opacity: 0.9;
+}
+.cid-sySrhaqmli .carousel-indicators li::after,
+.cid-sySrhaqmli .carousel-indicators li::before {
+  content: none;
+}
+.cid-sySrhaqmli .carousel-indicators.ie-fix {
+  left: 50%;
+  display: block;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-sySrhaqmli .carousel-indicators {
+    display: none !important;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sySrhaqmli .carousel-indicators {
+    margin-bottom: 3.625rem !important;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sySrhaqmli .carousel-indicators {
+    display: none;
+  }
+}
+.cid-sySrhaqmli .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cid-sySrhaqmli .carousel-inner > .active {
+  display: block;
+}
+.cid-sySrhaqmli .carousel-control.left {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-sySrhaqmli .carousel-control.right {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-sySrhaqmli .carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .cid-sySrhaqmli .carousel-control,
+  .cid-sySrhaqmli .carousel-indicators,
+  .cid-sySrhaqmli .modal .close {
+    position: fixed;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sySrhaqmli .mbr-slider .carousel-control {
+    top: auto;
+    bottom: 20px;
+  }
+  .cid-sySrhaqmli .mbr-slider > .container .carousel-control {
+    margin-bottom: 0;
+  }
+}
+.cid-sySrhaqmli .carousel-indicators .active,
+.cid-sySrhaqmli .carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  margin: 3px;
+  background: #000000;
+  opacity: 0.5;
+  border: 4px solid #000000;
+}
+.cid-sySrhaqmli .carousel-indicators .active {
+  background: #fff;
+}
+.cid-sySrhaqmli .carousel-indicators li {
+  max-width: 15px;
+  max-height: 15px;
+  border-radius: 50%;
+}
+.cid-sySrhaqmli .modal {
+  padding-left: 0 !important;
+  position: fixed;
+  overflow: hidden;
+  padding-right: 0 !important;
+}
+.cid-sySrhaqmli .modal-dialog {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.cid-sySrhaqmli .modal-content {
+  border-radius: 0;
+  border: none;
+  background: transparent;
+}
+.cid-sySrhaqmli .modal-body {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.cid-sySrhaqmli .modal-body img {
+  width: 100%;
+  object-fit: contain;
+  max-height: calc(100vh - 1.75rem);
+}
+.cid-sySrhaqmli .carousel {
+  width: 100%;
+}
+.cid-sySrhaqmli .modal-backdrop.in {
+  opacity: 0.8;
+}
+.cid-sySrhaqmli .modal.fade .modal-dialog {
+  transition: margin-top 0.3s ease-out;
+}
+.cid-sySrhaqmli .modal.fade .modal-dialog,
+.cid-sySrhaqmli .modal.in .modal-dialog {
+  transform: none;
+}
+.cid-sySrhaqmli .mbr-gallery .item-wrapper {
+  cursor: pointer;
+}
+.cid-sySrhaqmli H6 {
+  text-align: center;
+}
+.cid-sySrhaqmli H4 {
+  text-align: center;
+}
+.cid-sySrhaqmli H3 {
+  text-align: center;
+  color: #f7ed4a;
+}
 .cid-svzTYgCMpv {
   padding-top: 1rem;
   padding-bottom: 0rem;
@@ -1464,13 +1726,8 @@ section.lazy-placeholder:after {
   padding-bottom: 0rem;
   background-color: #b4b2d2;
 }
-.cid-stVEb0Zkex .row {
-  margin-left: 0;
-  margin-right: 0;
-}
 .cid-stVEb0Zkex .item {
-  padding-left: 0;
-  padding-right: 0;
+  padding-bottom: 2rem;
 }
 .cid-stVEb0Zkex .item-wrapper {
   height: 200px;
@@ -2000,7 +2257,7 @@ section.lazy-placeholder:after {
 .cid-sf1TvRI6NO {
   padding-top: 45px;
   padding-bottom: 45px;
-  background: linear-gradient(45deg, #e7c838, #90cc6e);
+  background: linear-gradient(45deg, #7385c7, #1db761);
 }
 @media (min-width: 992px) {
   .cid-sf1TvRI6NO .mbr-figure {
@@ -2150,14 +2407,14 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s2mmhyyX5G {
-  background-image: url("../../../assets/images/dynamite-mix-moment2-1280x720.jpeg");
+  background-image: url("../../../assets/images/feels-good-mix-moment3-1280x720.jpeg");
 }
 .cid-s2mmhyyX5G .mbr-text,
 .cid-s2mmhyyX5G .mbr-section-btn {
-  color: #56cc14;
+  color: #ccc314;
 }
 .cid-s2mmhyyX5G H3 {
-  color: #19127d;
+  color: #d22f82;
 }
 .cid-s2mTsdKxsE {
   background: #b2ccd2;
@@ -2175,7 +2432,7 @@ section.lazy-placeholder:after {
 .cid-sgSYR1neOR {
   padding-top: 1rem;
   padding-bottom: 0rem;
-  background-color: #e4d295;
+  background-color: #90cc6e;
 }
 .cid-sgSYR1neOR .video-wrapper iframe {
   width: 100%;
@@ -2188,7 +2445,7 @@ section.lazy-placeholder:after {
 .cid-sf2erZ7qFN {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #e4d295;
+  background-color: #90cc6e;
 }
 .cid-sf2erZ7qFN .video-wrapper iframe {
   width: 100%;
@@ -2201,7 +2458,7 @@ section.lazy-placeholder:after {
 .cid-sf4CWziTFR {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #e4d295;
+  background-color: #90cc6e;
 }
 .cid-sf4CWziTFR .video-wrapper iframe {
   width: 100%;
@@ -2214,7 +2471,7 @@ section.lazy-placeholder:after {
 .cid-sf4EnHRRUj {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #e4d295;
+  background-color: #90cc6e;
 }
 .cid-sf4EnHRRUj .video-wrapper iframe {
   width: 100%;

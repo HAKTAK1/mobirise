@@ -685,7 +685,7 @@ section.lazy-placeholder:after {
 .cid-s29dIONRw3 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/haktak-virtualdj-logo-2-809x248.jpg");
+  background-image: url("../../../assets/images/20181122-150911-effects-2000x1125.jpg");
 }
 .cid-s29dIONRw3 .socicon-bg-facebook {
   background: #3e5b98;
@@ -753,7 +753,7 @@ section.lazy-placeholder:after {
 .cid-s298ZlqZ4e {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-image: url("../../../assets/images/mix-for-fantasy-moment2-1280x720.jpg");
+  background-image: url("../../../assets/images/downunder-1578x682.jpg");
 }
 .cid-s298ZlqZ4e .mbr-media span {
   font-size: 48px;
@@ -2035,7 +2035,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s2mmhyyX5G {
-  background-image: url("../../../assets/images/follow-mix-moment2-1114x626.jpg");
+  background-image: url("../../../assets/images/natuur-achtergronden-50-1600x900.jpg");
 }
 .cid-s2mmhyyX5G .mbr-text,
 .cid-s2mmhyyX5G .mbr-section-btn {
@@ -2187,6 +2187,40 @@ section.lazy-placeholder:after {
   .cid-sfhY44Q7bU .footer-lower .social-list {
     -webkit-justify-content: center;
     justify-content: center;
+  }
+}
+.cid-sYyEmlsOQQ {
+  background-image: url("../../../assets/images/vitamine-d-mix-moment2-1280x720.jpg");
+}
+.cid-sYyEmlsOQQ .media-content {
+  word-wrap: break-word;
+}
+.cid-sYyEmlsOQQ .form-group {
+  padding: 0.5rem;
+}
+.cid-sYyEmlsOQQ .form-control {
+  text-align: center;
+}
+.cid-sYyEmlsOQQ .mbr-figure {
+  padding-bottom: 2rem;
+}
+@media (min-width: 992px) {
+  .cid-sYyEmlsOQQ .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-sYyEmlsOQQ .mbr-text {
+    text-align: center;
+  }
+  .cid-sYyEmlsOQQ .form-inline {
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .cid-sYyEmlsOQQ .form-control {
+    font-size: .85rem;
   }
 }
 .cid-s7CYOPSnGU {

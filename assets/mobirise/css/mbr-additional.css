@@ -1084,7 +1084,7 @@ section.lazy-placeholder:after {
 .cid-sySrhaqmli {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #efefef;
+  background-color: #79b0ce;
 }
 .cid-sySrhaqmli .row {
   margin-left: 0;
@@ -1353,7 +1353,7 @@ section.lazy-placeholder:after {
 .cid-sf1TvRI6NO {
   padding-top: 45px;
   padding-bottom: 45px;
-  background: linear-gradient(45deg, #d22f82, #f7ed4a);
+  background: linear-gradient(45deg, #1db761, #79b0ce);
 }
 @media (min-width: 992px) {
   .cid-sf1TvRI6NO .mbr-figure {
@@ -1513,7 +1513,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-s2mmhyyX5G {
-  background-image: url("../../../assets/images/20181122-160059-2000x1125.jpg");
+  background-image: url("../../../assets/images/moment-2-2000x1094.jpeg");
 }
 .cid-s2mmhyyX5G .mbr-text,
 .cid-s2mmhyyX5G .mbr-section-btn {
@@ -1667,44 +1667,36 @@ section.lazy-placeholder:after {
     justify-content: center;
   }
 }
-.cid-sYyEmlsOQQ {
-  background-image: url("../../../assets/images/20181123-95527-2000x1125.jpeg");
+.cid-t3fpiD40eu {
+  background-image: url("../../../assets/images/20181122-150911-2000x1125.jpg");
 }
-.cid-sYyEmlsOQQ .media-content {
-  word-wrap: break-word;
-}
-.cid-sYyEmlsOQQ .form-group {
-  padding: 0.5rem;
-}
-.cid-sYyEmlsOQQ .form-control {
+.cid-t3fpiD40eu .social-row .soc-item {
+  display: inline-block;
   text-align: center;
+  margin-bottom: 1rem;
+  margin-right: .7rem;
 }
-.cid-sYyEmlsOQQ .mbr-figure {
-  padding-bottom: 2rem;
+.cid-t3fpiD40eu .social-row .soc-item .mbr-iconfont {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0.6rem;
+  border: 2px solid #ff3366;
+  transition: all 0.3s;
+  color: #ff3366;
 }
-@media (min-width: 992px) {
-  .cid-sYyEmlsOQQ .mbr-figure {
-    padding-right: 4rem;
-  }
+.cid-t3fpiD40eu .social-row .soc-item .mbr-iconfont:hover {
+  background-color: #ff3366;
+  color: #ffffff;
 }
-@media (max-width: 992px) {
-  .cid-sYyEmlsOQQ .mbr-text {
-    text-align: center;
-  }
-  .cid-sYyEmlsOQQ .form-inline {
-    justify-content: center;
-    -webkit-justify-content: center;
-  }
-}
-@media (max-width: 768px) {
-  .cid-sYyEmlsOQQ .form-control {
-    font-size: .85rem;
-  }
+.cid-t3fpiD40eu .mbr-text,
+.cid-t3fpiD40eu .mbr-section-btn,
+.cid-t3fpiD40eu .social-row {
+  color: #d22f82;
 }
 .cid-s7CYOPSnGU {
   padding-top: 75px;
   padding-bottom: 75px;
-  background: linear-gradient(45deg, #bf8646, #55b4d4);
+  background-image: url("../../../assets/images/haktak-virtualdj-logo-2000x663.png");
 }
 .cid-s7CYOPSnGU .btn {
   margin: 0 0 .5rem 0;

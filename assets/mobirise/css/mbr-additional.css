@@ -1662,6 +1662,7 @@ section.lazy-placeholder:after {
 .cid-tuTCD6hOMV {
   padding-top: 6rem;
   padding-bottom: 6rem;
+  background-color: #c4bc3b;
 }
 .cid-tuTCD6hOMV .mbr-fallback-image.disabled {
   display: none;
@@ -1674,7 +1675,6 @@ section.lazy-placeholder:after {
   height: 100%;
   position: absolute;
   top: 0;
-  background-image: url("../../../assets/images/background13.jpg");
 }
 .cid-tuTCD6hOMV .video-wrapper iframe {
   width: 100%;

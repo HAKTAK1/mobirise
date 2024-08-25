@@ -1,23 +1,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://haktak.be/index.html</loc>
+		<loc>https://www.haktak.be/index.html</loc>
 	</url>
 	<url>
-		<loc>https://haktak.be/overmij.html</loc>
+		<loc>https://www.haktak.be/overmij.html</loc>
 	</url>
 	<url>
-		<loc>https://haktak.be/mail.html</loc>
+		<loc>https://www.haktak.be/mail.html</loc>
 	</url>
 	<url>
-		<loc>https://haktak.be/privacy.html</loc>
+		<loc>https://www.haktak.be/privacy.html</loc>
 	</url>
 	<url>
-		<loc>https://haktak.be/videosextra.html</loc>
+		<loc>https://www.haktak.be/videosextra.html</loc>
 	</url>
 	<url>
-		<loc>https://haktak.be/VIDEOSITE.html</loc>
+		<loc>https://www.haktak.be/VIDEOSITE.html</loc>
 	</url>
 	<url>
-		<loc>https://haktak.be/streamchannel.html</loc>
+		<loc>https://www.haktak.be/streamchannel.html</loc>
+	</url>
+	<url>
+		<loc>https://www.haktak.be/LivestreamCrowd.html</loc>
 	</url>
 </urlset>

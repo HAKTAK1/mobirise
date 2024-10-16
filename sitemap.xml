@@ -18,9 +18,12 @@
 		<loc>https://www.haktak.be/VIDEOSITE.html</loc>
 	</url>
 	<url>
-		<loc>https://www.haktak.be/streamchannel.html</loc>
+		<loc>https://www.haktak.be/LivestreamCrowd.html</loc>
 	</url>
 	<url>
-		<loc>https://www.haktak.be/LivestreamCrowd.html</loc>
+		<loc>https://www.haktak.be/LivestreamTwitch.html</loc>
+	</url>
+	<url>
+		<loc>https://www.haktak.be/LivestreamKick.html</loc>
 	</url>
 </urlset>

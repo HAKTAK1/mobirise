@@ -80,7 +80,7 @@
     
     <figure class="mbr-figure align-center">
         <div class="video-block" style="width: 100%;">
-            <div><iframe class="mbr-embedded-video" src="https://www.youtube.com/embed/chvzGRIO5vE?rel=0&amp;amp;&amp;showinfo=0&amp;autoplay=0&amp;loop=0" width="1280" height="720" frameborder="0" allowfullscreen></iframe></div>
+            <div><video x-webkit-airplay="allow" class="sc-fd9d0d8f-13 eVsUSM" playsinline="" webkit-playsinline="" x5-playsinline="" src="blob:https://www.patreon.com/671581e8-54c6-4ab6-bfec-b82f94ccd253"></video></div>
         </div>
     </figure>
 </section>
